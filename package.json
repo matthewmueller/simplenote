@@ -1,5 +1,6 @@
 {
   "name" : "simplenote",
+  "version" : "0.0.1",
   "dependencies" : {
     "superagent" : "*",
     "base64-encode" : "*",
