@@ -103,8 +103,8 @@ SimpleNote.prototype.get = function(key, fn) {
 
     request
       .get(api2 + 'data/' + key)
-      .query({ auth : token, email : self.email })
       .type('json')
+      .query({ auth : token, email : self.email })
       .end(function(res) {
         if(res.error) return fn(res.error);
         else if(!res.text) return fn(null, {})
