@@ -1,0 +1,8 @@
+{
+  "name" : "simplenote",
+  "dependencies" : {
+    "superagent" : "*",
+    "base64-encode" : "*",
+    "array.js" : "*"
+  }
+}
