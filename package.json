@@ -1,6 +1,6 @@
 {
   "name": "simplenote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "array": "^0.4.3",
     "base64-encode": "1.0.1",
