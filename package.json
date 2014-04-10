@@ -1,9 +1,9 @@
 {
-  "name" : "simplenote",
-  "version" : "0.0.1",
-  "dependencies" : {
-    "superagent" : "*",
-    "base64-encode" : "*",
-    "array.js" : "*"
+  "name": "simplenote",
+  "version": "0.0.1",
+  "dependencies": {
+    "array": "^0.4.3",
+    "base64-encode": "1.0.1",
+    "superagent": "^0.17.0"
   }
 }

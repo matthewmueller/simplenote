@@ -4,7 +4,7 @@
 
 var request = require('superagent'),
     encode = require('base64-encode'),
-    array = require('array.js');
+    array = require('array');
 
 /**
  * API Endpoints
@@ -112,3 +112,5 @@ SimpleNote.prototype.get = function(key, fn) {
       });
   })
 };
+
+
